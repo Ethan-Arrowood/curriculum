@@ -1,0 +1,69 @@
+{
+  "name": "Basic Python Algorithms",
+  "order": 2,
+  "time": "6 hours",
+  "helpRoom": "Help",
+  "challenges": [
+    {
+      "id": "5b7c5cbb6dead1d8c14d0a4e",
+      "title": "Convert Celsius to Fahrenheit",
+      "description": [
+        "The algorithm to convert from Celsius to Fahrenheit is the temperature in Celsius times <code>9/5</code>, plus <code>32</code>.",
+        "You are given a variable <code>celsius</code> representing a temperature in Celsius. Use the variable <code>fahrenheit</code> already defined and assign it the Fahrenheit temperature equivalent to the given Celsius temperature. Use the algorithm mentioned above to help convert the Celsius temperature to Fahrenheit.",
+        "Don't worry too much about the function and return statements as they will be covered in future challenges. For now, only use operators that you have already learned."
+      ],
+      "releasedOn": "January 1, 2016",
+      "solutions": [
+        "def convertToF(celsius):\n  fahrenheit = celsius * 9/5 + 32\n\n  return fahrenheit\n\n\nconvertToF(30)\n"
+      ],
+      "tests": [
+        {
+          "text": "<code>convertToF(0)</code> should return a number",
+          "testString": "assert(typeof convertToF(0) === 'number', '<code>convertToF(0)</code> should return a number');"
+        },
+        {
+          "text": "<code>convertToF(-30)</code> should return a value of <code>-22</code>",
+          "testString": "assert(convertToF(-30) === -22, '<code>convertToF(-30)</code> should return a value of <code>-22</code>');"
+        },
+        {
+          "text": "<code>convertToF(-10)</code> should return a value of <code>14</code>",
+          "testString": "assert(convertToF(-10) === 14, '<code>convertToF(-10)</code> should return a value of <code>14</code>');"
+        },
+        {
+          "text": "<code>convertToF(0)</code> should return a value of <code>32</code>",
+          "testString": "assert(convertToF(0) === 32, '<code>convertToF(0)</code> should return a value of <code>32</code>');"
+        },
+        {
+          "text": "<code>convertToF(20)</code> should return a value of <code>68</code>",
+          "testString": "assert(convertToF(20) === 68, '<code>convertToF(20)</code> should return a value of <code>68</code>');"
+        },
+        {
+          "text": "<code>convertToF(30)</code> should return a value of <code>86</code>",
+          "testString": "assert(convertToF(30) === 86, '<code>convertToF(30)</code> should return a value of <code>86</code>');"
+        }
+      ],
+      "challengeType": 1,
+      "isRequired": true,
+      "translations": {},
+      "files": {
+        "indexpy": {
+          "key": "indexpy",
+          "ext": "py",
+          "name": "index",
+          "contents": [
+            "def convertToF(celsius):",
+            "  fahrenheit = None",
+            "  return fahrenheit",
+            "",
+            "",
+            "convertToF(30)"
+          ],
+          "head": [],
+          "tail": []
+        }
+      }
+    }
+  ],
+  "fileName": "10-python-lessons/basic-python-algorithms.json",
+  "superBlock": "python-lessons"
+}
