@@ -42,7 +42,7 @@
           "testString": "assert(convertToF(30) === 86, '<code>convertToF(30)</code> should return a value of <code>86</code>');"
         }
       ],
-      "challengeType": 1,
+      "challengeType": 10,
       "isRequired": true,
       "translations": {},
       "files": {
