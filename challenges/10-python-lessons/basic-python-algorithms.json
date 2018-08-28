@@ -3,12 +3,8 @@
   "order": 2,
   "time": "6 hours",
   "helpRoom": "Help",
-  "required": [
-    {
-      "src": ""
-    }
-  ],
-  "template": "<script type='text/javascript' src='https://cdn.rawgit.com/brython-dev/brython/3.6.2/www/src/brython.js'></script><script type='text/javascript' src='https://cdn.rawgit.com/brython-dev/brython/3.6.2/www/src/brython_stdlib.js'></script><script type='text/python'>{ source || '' }</script><script type='text/python'>brython()</script>",
+  "required": [],
+  "template": "<script type='text/javascript' src='https://cdn.rawgit.com/brython-dev/brython/3.6.2/www/src/brython.js'></script><script type='text/javascript' src='https://cdn.rawgit.com/brython-dev/brython/3.6.2/www/src/brython_stdlib.js'></script><script type='text/javascript'>console.log('Hello from JavaScript')</script><script type='text/javascript'>${ source || ''}</script><script type='text/python'>print('Hello, World! from Python')</script><script type='text/javascript'>brython()</script>",
   "challenges": [
     {
       "id": "5b7f1da215e615903ee914c9",
